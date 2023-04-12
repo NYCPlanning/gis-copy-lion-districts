@@ -146,7 +146,7 @@ try:
                       "nycb2020wi","nycb2010","nycb2010wi","nycc","nyccwi","nycd", "nycdta2020",
                       "nycdwi","nycg","nycgwi","nyct2020","nyct2020wi","nyct2010","nyct2010wi",
                       "nyed","nyedwi","nyfb","nyfc","nyfd","nyha","nyhc","nyhez",
-                      "nymc","nymcwi","nynta2020","nynta2010","nypp","nysd","nyss","nysswi", "nypuma2010"]
+                      "nymc","nymcwi","nynta2020","nynta2010","nypp","nysd","nyss","nysswi", "nypuma2010", "nypuma2020"]
 
         district_name_dict = {
             "nyad": "NYAD - New York State Assembly Districts.lyr.xml",
@@ -183,6 +183,7 @@ try:
             "nynta2010": "NYNTA2010 - 2010 Neighborhood Tabulation Areas (NTAs).lyr.xml",
             "nypp": "NYPP - Police Precints.lyr.xml",
             "nypuma2010": "NYPUMA2010 - 2010 Public Use Micro Areas (PUMAs).lyr.xml",
+            "nypuma2020": "NYPUMA2020 - 2020 Public Use Micro Areas (PUMAs).lyr.xml",
             "nysd": "NYSD - School Districts.lyr.xml",
             "nyss": "NYSS - New York State Senate Districts.lyr.xml",
             "nysswi": "NYSSWI - New York State Senate Districts - Water Included.lyr.xml"}
@@ -190,7 +191,7 @@ try:
         #the below lists are utilized to distribute xmls to the appropriate M Drive subfolders
         bb_cd = ['nybb', 'nybbwi', 'nycd', 'nycdwi']
         census = ['nycb2020', 'nycb2020wi', 'nycb2010', 'nycb2010wi', 'nycdta2020', 'nynta2010', 'nynta2020',
-                  'nypuma2010', 'nyct2020', 'nyct2020wi', 'nyct2010', 'nyct2010wi']
+                  'nypuma2010', 'nypuma2020', 'nyct2020', 'nyct2020wi', 'nyct2010', 'nyct2010wi']
         other = ['nyap', 'nyhez']
         pol = ['nyad', 'nyadwi', 'nycc', 'nyccwi', 'nycg', 'nycgwi', 'nyed', 'nyedwi', 'nymc', 'nymcwi', 'nyss', 'nysswi']
         fire = ['nyfb', 'nyfc', 'nyfd', 'nyha', 'nyhc', 'nypp', 'nysd']
